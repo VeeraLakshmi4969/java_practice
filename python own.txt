@@ -1,0 +1,18 @@
+Dictionaries
+pizza = {
+    'name': 'Margherita Pizza',
+    'price': 8.9,
+    'calories_per_slice': 250,
+    'toppings': ['mozzarella', 'basil']
+}
+Another alternative would be using the dict() constructor, which builds the dictionary from a sequence of key-value pairs.
+
+This would be the equivalent syntax for our pizza example. We pass a list of tuples as argument to the dict() constructor. These tuples contain the key as the first element and the value as the second element.
+pizza = dict([('name', 'Margherita Pizza'), ('price', 8.9), ('calories_per_slice', 250), ('toppings', ['mozzarella', 'basil'])])
+print(pizza['name']) # 'Margherita'
+pizza.keys()
+pizza.values()
+pizza.items()
+pizza.clear()
+pizza.popitem()
+pizza.update({ 'price': 15, 'total_time': 25 })
