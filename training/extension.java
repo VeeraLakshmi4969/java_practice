@@ -7,7 +7,7 @@ c.cry();
 c.walk();
 }
 }
-class A{
+class A{j
 void say();{
 System.out.println("hello");
 }
@@ -17,4 +17,4 @@ void cry();
 }
 class C extends B{
 void walk();
-}
+}s
